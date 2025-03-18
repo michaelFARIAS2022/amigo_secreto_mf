@@ -2,9 +2,9 @@
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-button: #1B1A55;
+    --color-button-hover:#9290C3;
+    --color-text: #727D73;
     --color-white: #FFFFFF;
 }
 
@@ -17,7 +17,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-color: #001F3F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,14 +58,14 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: #EAD8B1;
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: #0B192C;
     margin: 10px 0;
     text-align: center;
 }
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #df0505;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
