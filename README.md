@@ -18,7 +18,7 @@ amigo_secreto_mf/ │── index.html # Estructura principal de la app │─�
 ### 🚀Instalación y Uso
 ---
 Clona este repositorio en tu máquina local: 
--git clone 
+-git clone (https://github.com/michaelFARIAS2022/amigo_secreto_mf.git)
 -Abre el archivo index.html en tu navegador.
 -Ingresa los nombres de los amigos y realiza el sorteo.
 
