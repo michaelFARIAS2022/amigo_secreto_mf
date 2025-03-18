@@ -23,3 +23,16 @@ function listarAmigos() {
     listaAmigos.appendChild(item);
   }
 }
+function sortearAmigo() {
+  if (amigo.length === 0) {
+    alert("¡No se ingresaron amigos!");
+    return;
+  }
+  let ganador = amigo[Math.floor(Math.random() * amigo.length)];
+  let resultado = document.getElementById("resultado");
+  resultado.innerHTML = ` El ganador es: ${ganador}`;
+
+  let actualizarLista = document.getElementById("listaAmigos");
+
+  actualizarLista.innerHTML = "";
+}
